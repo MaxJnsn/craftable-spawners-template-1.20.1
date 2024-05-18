@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "pattern": [
     "SSS",
     "SBS",
@@ -16,11 +15,6 @@
   },
   "result": {
     "item": "minecraft:spawner",
-    "count": 1,
-    "nbt": {
-      "BlockEntityTag": {
-        "EntityId": "minecraft:skeleton"
-      }
-    }
+    "nbt": "{BlockEntityTag:{SpawnData:{id:\"minecraft:skeleton\"}}}"
   }
 }
