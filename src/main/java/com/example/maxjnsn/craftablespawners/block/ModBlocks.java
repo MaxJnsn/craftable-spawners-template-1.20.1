@@ -16,8 +16,6 @@ public class ModBlocks {
     public static final Block EMPTY_SPAWNER = registerBlock("empty_spawner",
             new EmptySpawner(FabricBlockSettings.copyOf(Blocks.SPAWNER)));
 
-
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(CraftableSpawners.MOD_ID, name), block);
