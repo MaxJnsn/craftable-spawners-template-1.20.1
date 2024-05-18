@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SPAWNER_FRAGMENT = registerItem("spawner_fragment", new Item(new FabricItemSettings()));
+    public static final Item SKELETON_TRANSFORMER = registerItem("skeleton_transformer", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(SPAWNER_FRAGMENT);
+        entries.add(SKELETON_TRANSFORMER);
     }
 
     private static Item registerItem(String name, Item item) {

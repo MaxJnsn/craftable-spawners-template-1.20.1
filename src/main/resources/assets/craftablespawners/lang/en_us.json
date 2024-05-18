@@ -1,4 +1,12 @@
 {
   "item.craftablespawners.spawner_fragment": "Spawner Fragment",
+  "item.craftablespawners.skeleton_transformer": "Skeleton Transformer",
+
+
+
+  "block.craftablespawners.empty_spawner": "Empty Spawner",
+
+
+
   "itemgroup.craftablespawners": "Craftable Spawners"
 }

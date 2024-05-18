@@ -1,6 +1,7 @@
 package com.example.maxjnsn.craftablespawners.item;
 
 import com.example.maxjnsn.craftablespawners.CraftableSpawners;
+import com.example.maxjnsn.craftablespawners.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SPAWNER_FRAGMENT);
                         entries.add(Items.SPAWNER);
+                        entries.add(ModItems.SKELETON_TRANSFORMER);
+                        entries.add(ModBlocks.EMPTY_SPAWNER);
                     })
                     .build());
 

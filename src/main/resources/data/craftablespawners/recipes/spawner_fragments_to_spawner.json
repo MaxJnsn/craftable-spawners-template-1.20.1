@@ -12,6 +12,6 @@
     }
   },
   "result": {
-    "item": "minecraft:spawner"
+    "item": "craftablespawners:empty_spawner"
   }
 }

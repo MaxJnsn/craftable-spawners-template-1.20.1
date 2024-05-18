@@ -1,5 +1,6 @@
 package com.example.maxjnsn.craftablespawners;
 
+import com.example.maxjnsn.craftablespawners.block.ModBlocks;
 import com.example.maxjnsn.craftablespawners.item.ModItemGroups;
 import com.example.maxjnsn.craftablespawners.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,8 @@ public class CraftableSpawners implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerItems();
+		ModBlocks.registerModBlocks();
 	}
 }

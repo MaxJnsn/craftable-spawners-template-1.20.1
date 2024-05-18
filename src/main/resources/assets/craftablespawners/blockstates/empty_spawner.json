@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "craftablespawners:block/empty_spawner"
+    }
+  }
+}
