@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "craftablespawners:spawner_fragment"
+    }
+  },
+  "result": {
+    "item": "minecraft:spawner"
+  }
+}

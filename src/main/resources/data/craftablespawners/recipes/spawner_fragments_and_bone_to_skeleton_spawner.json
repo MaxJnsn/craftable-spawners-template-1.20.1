@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SBS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "craftablespawners:spawner_fragment"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "minecraft:spawner",
+    "count": 1,
+    "nbt": {
+      "BlockEntityTag": {
+        "EntityId": "minecraft:skeleton"
+      }
+    }
+  }
+}
