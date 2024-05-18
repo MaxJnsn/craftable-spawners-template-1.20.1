@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "craftablespawners",
+	"version": "${version}",
+	"name": "Craftable Spawners",
+	"description": "With this mod you can craft mobspawners from items dropped by breaking spawners. That way you can move spawners in a less OP way. Made by MaxJNSN",
+	"authors": [
+		"MaxJNSN"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/craftablespawners/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.maxjnsn.craftablespawners.CraftableSpawners"
+		],
+		"client": [
+			"com.example.maxjnsn.craftablespawners.CraftableSpawnersClient"
+		],
+		"fabric-datagen": [
+			"com.example.maxjnsn.craftablespawners.CraftableSpawnersDataGenerator"
+		]
+	},
+	"mixins": [
+		"craftablespawners.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
