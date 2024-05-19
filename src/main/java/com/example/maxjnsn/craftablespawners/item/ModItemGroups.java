@@ -2,6 +2,7 @@ package com.example.maxjnsn.craftablespawners.item;
 
 import com.example.maxjnsn.craftablespawners.CraftableSpawners;
 import com.example.maxjnsn.craftablespawners.block.ModBlocks;
+import com.example.maxjnsn.craftablespawners.enchantment.ModEnchantments;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
