@@ -21,7 +21,7 @@ public class SoulReaperEnchantment extends Enchantment {
     private final Random random = new Random();
 
     public SoulReaperEnchantment(Rarity weight, EnchantmentTarget weapon, EquipmentSlot... slotTypes) {
-        super(weight, EnchantmentTarget.WEAPON, slotTypes);
+        super(weight, EnchantmentTarget.TRIDENT, slotTypes);
     }
 
     @Override
