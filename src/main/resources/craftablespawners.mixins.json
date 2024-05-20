@@ -4,7 +4,8 @@
 	"package": "com.example.maxjnsn.craftablespawners.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"SpawnerBlockMixin",
+		"EnchantmentTargetMixin",
+		"EnchantmentMixin",,
 		"ExampleMixin"
 	],
 	"client": [],

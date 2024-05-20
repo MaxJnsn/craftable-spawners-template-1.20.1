@@ -21,7 +21,12 @@ public class SoulReaperEnchantment extends Enchantment {
     private final Random random = new Random();
 
     public SoulReaperEnchantment(Rarity weight, EnchantmentTarget weapon, EquipmentSlot... slotTypes) {
-        super(weight, EnchantmentTarget.DIGGER, slotTypes);
+        super(weight, EnchantmentTarget.WEAPON, slotTypes);
+    }
+
+    @Override
+    public boolean isAcceptableItem(ItemStack stack) {
+        return stack.getItem() instanceof HoeItem;
     }
 
     @Override
@@ -43,13 +48,13 @@ public class SoulReaperEnchantment extends Enchantment {
     }
 
     @Override
-    public boolean isAvailableForEnchantedBookOffer() {
-        return false;
+    public int getMinPower(int level) {
+        return 10 + (level - 1) * 5;
     }
 
     @Override
-    public boolean isAvailableForRandomSelection() {
-        return false;
+    public int getMaxPower(int level) {
+        return getMinPower(level) + 20;
     }
 
     @Override
@@ -57,3 +62,4 @@ public class SoulReaperEnchantment extends Enchantment {
         return 3;
     }
 }
+
